@@ -1,0 +1,30 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+'''
+import os,sys
+print('%-25s%s' % ('Файл:', os.path.abspath(__file__)))
+print('%-25s%s' % ('Текущий каталог:', os.getcwd()))
+print('%-25s%s' % ('Путь к файлу:', os.path.abspath('file.txt')))
+'''
+'''
+f = open('file.txt','w+') # открываем и пишем строчку в файл
+f.write('my first file \n two line \n')
+f.close()
+'''
+'''
+d = open('file.txt', 'r') # выводим содержимое файла
+for line in d:
+    print(repr(line))
+'''
+
+d = open(r"file2.txt", "w+", encoding='utf-8')
+d.write('heoolo')
+d.readline()
+d.name
+d.tell()
+d.close()
+
+
+
+
