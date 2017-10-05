@@ -9,18 +9,20 @@ import uuid
 import os
 import datetime
 
+# получаем дату
 now = datetime.datetime.now()
 data_dry = now.strftime("%Y-%m-%d")
 
-
+# создаем темп файл
 filename = '/tmp/'+ str(uuid.uuid4())+'.txt'
 
 
-#открываем в виме
+#открываем его в виме
 os.system('vim %s' % filename)
 
+#записываем в конец нашей базы
 with open(filename, 'r') as fin1: lines = fin1.readlines()
-with open("/mnt/data/python/dry/base.txt", 'a+') as fout: fout.write(data_dry+'\n'+''.join(list(lines)))
+with open("/mnt/python/dry/base.txt", 'a+') as fout: fout.write(data_dry+'\n'+''.join(list(lines)))
 
 #
 # f = open("/mnt/data/python/dry/base.txt", 'a+')
@@ -29,8 +31,9 @@ with open("/mnt/data/python/dry/base.txt", 'a+') as fout: fout.write(data_dry+'\
 #
 # d = open(filename, 'r') # выводим содержимое файла
 # for line in d:
-#     f.write(repr(line))
+#     f.write(repr(line))NN
 # f.close()
+
 
 
 def remove_string2(filename, string):
@@ -43,7 +46,10 @@ def remove_string2(filename, string):
                 line = line.rstrip('\n');
                 if line != string:
                     fout.write(line)
-                else 
+                else
 
     os.rename(tempname, filename)
 remove_string2("/mnt/data/python/dry/base.txt", data_dry)
+
+
+
