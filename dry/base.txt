@@ -1,5 +1,12 @@
+Мой дневник
 
-2017-10-05
-hello
-2017-10-05
-it's second note
+2017-10-06 ===
+first line
+two line
+three line
+four line
+next line
+next next line
+thre next linw
+firesZZ
+asdfasdf

@@ -24,4 +24,5 @@ for opt, value in options:
     elif opt in ('-o', '--option'):
         option = value
         print ('option: ', option)
-
+    else:
+        print('Hhelp')
