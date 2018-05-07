@@ -43,7 +43,7 @@ def remove_string2(filename, string):
                 line = line.rstrip('\n');
                 if line != string:
                     fout.write(line)
-                else 
+                else
 
     os.rename(tempname, filename)
 remove_string2("/mnt/data/python/dry/base.txt", data_dry)
