@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 onew
 hello
 ZZ
@@ -13,3 +14,17 @@ asdfasdfasdfasd
 11
 
 asdfadsf
+=======
+Мой дневник
+
+2017-10-06 ===
+first line
+two line
+three line
+four line
+next line
+next next line
+thre next linw
+firesZZ
+asdfasdf
+>>>>>>> 4ded96c601bb70364cc7a483c188b0b2c90e93ee
