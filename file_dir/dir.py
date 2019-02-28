@@ -2,7 +2,7 @@
 
 import os
 
-files = os.listdir(path="/home/nevernew/zim/man")
+files = os.listdir(path="/home/nevernew/main/it/man")
 images = filter(lambda x: x.endswith('.txt'), files)
 i=0
 for d in images:
